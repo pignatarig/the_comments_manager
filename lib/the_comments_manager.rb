@@ -3,6 +3,7 @@ _root_ = File.expand_path('../../',  __FILE__)
 require "the_comments_manager/version"
 
 require 'jbuilder'
+require 'kaminari'
 require 'the_simple_sort'
 require 'the_notification'
 

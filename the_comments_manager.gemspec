@@ -18,9 +18,15 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+  spec.add_dependency 'kaminari'
+  spec.add_dependency 'bootstrap-sass'
   spec.add_dependency 'jbuilder',          '~> 1.5.3'
   spec.add_dependency 'the_simple_sort',   '~> 0.0.2'
   spec.add_dependency 'the_notification',  '~> 0.0.1'
+
+  spec.add_dependency 'slim'
+  spec.add_dependency 'the_data_role_block_slim'
+  spec.add_dependency 'the_data_role_block_jquery'
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
