@@ -1,5 +1,5 @@
-module TheComments
-  module ManageActions
+module TheCommentsManager
+  module Actions
     extend ActiveSupport::Concern
 
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

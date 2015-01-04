@@ -1,4 +1,4 @@
-@TheCommentsManagePanel = do ->
+@TheCommentsManager = do ->
   init: ->
     hide_comment_panel = (btn) -> $(btn).parents('@@panel').slideUp()
 
