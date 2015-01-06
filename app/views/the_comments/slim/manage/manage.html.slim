@@ -2,7 +2,7 @@
   = t "the_comments.management"
 
 - content_for :comments_sidebar do
-  = render partial: comment_template('manage/sidebar/sidebar')
+  = render partial: the_comments_template('manage/sidebar/sidebar')
 
 - content_for :comments_main do
   css:
@@ -15,6 +15,6 @@
 
   .comments@@comments
     - @comments.each do |comment|
-      = render partial: comment_template('manage/comment/comment'), locals: { comment: comment }
+      = render partial: the_comments_template('manage/comment/comment'), locals: { comment: comment }
 
   = paginate @comments
