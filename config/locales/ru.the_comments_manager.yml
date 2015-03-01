@@ -1,1 +1,27 @@
 ru:
+  the_comments:
+    management: Панель управления
+
+    written_by_me: Написанные мной
+    for_my_posts:  К моим Постам
+    in_system:     В системе
+
+    published_comments: Опубликованные
+    draft_comments:     Черновики
+    deleted_comments:   Удаленные
+    spam_comments:      Спам
+
+    edit:       Правка
+    update:     Обновить
+
+    to_draft:   В Черновики
+    to_spam:    В Спам
+    to_deleted: В Удаленные
+
+    additional_info: Прочее
+
+    nav:
+      to_root: На главную
+      header:  Навигация
+      all_incoming: Все входящие
+

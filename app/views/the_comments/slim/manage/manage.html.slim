@@ -13,7 +13,7 @@
   - if @comments.blank?
     .alert.alert-info= t 'the_comments.no_comments_here'
 
-  .comments@@comments
+  .comments@comments
     - @comments.each do |comment|
       = render partial: the_comments_template('manage/comment/comment'), locals: { comment: comment }
 
