@@ -14,9 +14,10 @@ ru:
     edit:       Правка
     update:     Обновить
 
-    to_draft:   В Черновики
-    to_spam:    В Спам
-    to_deleted: В Удаленные
+    to_draft:     В Черновики
+    to_spam:      В Спам
+    to_deleted:   В Удаленные
+    to_published: В Опубликованные
 
     additional_info: Прочее
 

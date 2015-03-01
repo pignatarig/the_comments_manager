@@ -12,10 +12,12 @@ en:
     spam_comments:      Spam Comments
 
     edit:       Edit
-    to_draft:   to Draft
-    to_spam:    to Spam
-    to_deleted: to Deleted
     update:     Update
+
+    to_draft:     to Draft
+    to_spam:      to Spam
+    to_deleted:   to Deleted
+    to_published: to Published
 
     additional_info: Info
 
