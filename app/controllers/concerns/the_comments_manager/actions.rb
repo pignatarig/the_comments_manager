@@ -71,7 +71,7 @@ module TheCommentsManager
 
     %w[ draft published deleted ].each do |state|
       define_method "to_#{ state }" do
-        ::Comment.find(params[:id]).try "to_#{ state }"
+        ::Comment.find(params[:id]).try "to_#{ state }!"
         render nothing: true
       end
     end
